@@ -12,6 +12,8 @@ if($symbol === "+"){
  $output = $value1 / $value2;
  } elseif($symbol === "*"){
  $output = $value1 * $value2;
+ } else{
+ $output = "Error could not perform operation";
  }
 
 echo $output;
