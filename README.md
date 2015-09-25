@@ -7,6 +7,6 @@ Through my studies of coding languages i have come to realize that just about ev
 # Contributing
 Please feel free to contribute to this project as I do not know all languages and will not be able to complete in a timely manner without help
 
-<a href="www.livewiretech.co.nf/cal/">Live Project</a>
+
 
 
