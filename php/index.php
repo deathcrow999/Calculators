@@ -3,6 +3,7 @@
 <head>
 <title>The Calculator</title>
 <meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header>
@@ -12,10 +13,18 @@
 <main>
 <h2>PHP Calculator</h2>
 <form method="post">
-<input type="number" name="value1" value="value1">
-<input type="symbol" name="operator" value="=+-*/">
-<input type ="number" name="value2" value="value2">
-<input type ="submit" name="submit">
+<input type="number" name="value1" value="value1" class="number-box">
+<br>
+<select name="operator">
+<option value="+">+</option>
+<option value="-">-</option>
+<option value="*">*</option>
+<option value="/">/</option>
+</select>
+<br>
+<input type ="number" name="value2" value="value2" class="number-box">
+<br>
+<input type ="submit" name="submit" class="submit-button">
 </form>
 <?include("calculator.php")?>
 
